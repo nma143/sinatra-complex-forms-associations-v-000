@@ -43,6 +43,7 @@ class PetsController < ApplicationController
       @pet.owner_id = @owner.id
       @pet.save
     end
+    binding pry
     redirect to "pets/#{@pet.id}"
   end
 end
