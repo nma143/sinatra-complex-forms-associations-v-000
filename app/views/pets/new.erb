@@ -11,13 +11,7 @@
 
   <label>Choose an existing owner:</label>
 
-  <br></br>
 
-  <%@owners.each do |owner|%>
-    <input type="checkbox" name="owner[ids][]" value="<%=owner.id%>" id="<%=owner.id%>"><%=owner.name%></input>
-  <%end%>
-
-  <br></br>
 
   <label>and/or, create a new owner:</label>
   <br></br>
